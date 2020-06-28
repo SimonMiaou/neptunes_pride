@@ -1,4 +1,6 @@
-require "neptunes_pride/version"
+# frozen_string_literal: true
+
+require 'neptunes_pride/version'
 
 module NeptunesPride
   class Error < StandardError; end
