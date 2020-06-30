@@ -5,3 +5,10 @@ AllCops:
 require:
   - rubocop-minitest
   - rubocop-performance
+
+Metrics/BlockLength:
+  Exclude:
+    - 'test/**/*'
+
+Style/WordArray:
+  EnforcedStyle: brackets
