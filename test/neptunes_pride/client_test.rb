@@ -28,7 +28,7 @@ describe NeptunesPride::Client do
       end
 
       it 'store the received cookie' do
-        stub_login_request('["meta:error",  "' + @api_error + '"]')
+        stub_login_request("[\"meta:error\",  \"#{@api_error}\"]")
 
         error = _(-> { @client.authenticate! }).must_raise(NeptunesPride::ApiError)
 

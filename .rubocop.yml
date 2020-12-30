@@ -5,6 +5,7 @@ AllCops:
 require:
   - rubocop-minitest
   - rubocop-performance
+  - rubocop-rake
 
 Metrics/BlockLength:
   Exclude:
